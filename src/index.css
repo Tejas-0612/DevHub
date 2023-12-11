@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+        font-family: 'Public Sans', sans-serif;
+      
+      }
+
+      .slick-slider .slick-arrow .slick-prev:before, 
+      .slick-slider .slick-arrow .slick-next:before {
+           color: black;
+           font-size: 40px;
+      }
+      
+      .slick-slider .slick-arrow .slick-next:before{
+        position: absolute;
+        right:0;
+         margin-top: -10px;
+         margin-right: 0px;
+      }
+      
+      .slick-slider .slick-arrow .slick-next,
+      .slick-slider .slick-arrow .slick-prev
+      {
+        position: absolute;
+        right:0;
+       }
+      
+      .slick-prev{
+        z-index: 99999;
+        margin-left: 0px;
+      }
+
+      ::selection{
+        color:yellowgreen;
+      }
